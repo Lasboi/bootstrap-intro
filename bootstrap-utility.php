@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Sigende titel</title>
+    <title>Bootstrap Utility</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -33,6 +33,11 @@
     <div class="d-flex justify-content-between">
         <div>Flex1</div>
         <div>Flex2</div>
+    </div>
+
+    <!-- Stretched Link som gælder hele div boksen da position er sat til relative hvilket gør man kan klikke hvor som helt for at komme videre-->
+    <div class="bg-primary position-relative" style="width: 200px; height: 200px;">
+        <a href="https://google.dk" target="_blank" class="stretched-link">Google Stretched</a>
     </div>
 
 <!-- Vi loader bootstrap javascript -->
