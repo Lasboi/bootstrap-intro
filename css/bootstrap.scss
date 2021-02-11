@@ -1,0 +1,15 @@
+//Impotere indhold fra bootstrap så vi kan benytte det
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+//Vi laver om på farverne i bootstrap
+$custom-colors: (
+  "primary": #f0f,
+  "logoColor": #ff0
+);
+
+//Vi overskriver de standard farver som er i bootstrap med de nye
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
