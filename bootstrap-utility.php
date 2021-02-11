@@ -17,6 +17,8 @@
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
+    <!-- Vi benytter os af bootsrap.css filen -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
@@ -27,7 +29,13 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
-<!-- Her skal sidens indhold ligge -->
+    <!-- Flexbox som sikre at indholdet er på samme linje og i dette tilfæde er de i hver deres side af skærmen-->
+    <div class="d-flex justify-content-between">
+        <div>Flex1</div>
+        <div>Flex2</div>
+    </div>
 
+<!-- Vi loader bootstrap javascript -->
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
