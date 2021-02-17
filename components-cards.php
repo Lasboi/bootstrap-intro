@@ -28,7 +28,7 @@
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
-
+    <!-- Cards som er gode til call to action, der kan sættes billeder, knapper og tekst op på en nem måde -->
     <div class="container">
         <div class="row">
             <div class="col-3">
