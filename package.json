@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.0.0-beta1"
+    "@popperjs/core": "^2.7.0",
+    "bootstrap": "^5.0.0-beta1",
+    "popper.js": "^1.16.1"
   },
   "devDependencies": {
     "node-sass": "^5.0.0",
